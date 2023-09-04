@@ -1,0 +1,97 @@
+.slider__item {
+  max-width: 100%;
+  height: 650px;
+}
+
+.slider__item-01 {
+  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+    url("https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/automotive-life/halloween-2022/Halloween-01-stage-hd.jpg?imwidth=1280");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider__item-02 {
+  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+    url("https://www.mercedes-benz.com/content/dam/brandhub/assets/innovation/concept-cars/concept-cla-class/stage/09-2023/images/mercedes-benz-iaa-sc055-stage-3840x2160-09-2023.cbv20230903160535.jpg/_jcr_content/renditions/mq5-original-aspect.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider__item-03 {
+  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+    url("https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/Z4/10183/1685003672330/rear-left-view-121.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider__item-04 {
+  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+    url("https://stimg.cardekho.com/images/carexteriorimages/930x620/Porsche/Panamera/10978/1690878452048/side-view-(right)-38.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__slider {
+  overflow: hidden;
+}
+
+.slider__content {
+  padding-top: 150px;
+  text-align: left;
+}
+
+.slider__content h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.reserve__btn {
+  background: #fff !important;
+  color: #000d6b !important;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  width: 150px;
+  height: 30px;
+
+}
+
+.reserve__btn a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000d6b;
+}
+
+.reserve__btn:hover {
+  background: #000d6b;
+  color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .slider__item {
+    height: 530px;
+    max-width: 100vw;
+  }
+
+  .slider__content {
+    margin-top: -50px;
+  }
+
+  .slider__content h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .slider__item {
+    height: 450px;
+  }
+
+  .slider__content h1 {
+    font-size: 1.5rem;
+  }
+}

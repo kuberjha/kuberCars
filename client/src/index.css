@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000d6b;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+h3,
+h4 {
+  font-size: 1.6rem;
+}
+
+h5,
+h6 {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.bs1 {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.ant-row {
+  margin: 0 20 !important;
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+}
+.logoIcon {
+  color: #fff;
+  margin: 5px;
+}
+p {
+  margin: 5px !important;
+
+  padding: 0;
+}
+.btn1 {
+  box-shadow: none !important;
+  background-color: #fbfcf8 !important;
+  color: black !important;
+  border: 1px solid #fed701 !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+.bt1:focus {
+  border: none;
+}
+button {
+  padding: 3px 10px !important;
+}
+.header {
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  min-height: 5%;
+  height: 5%;
+  background-color: white;
+}
+.header .ant-btn {
+  box-shadow: none !important;
+  background-color: white !important;
+  color: #000d6b !important;
+  border: 1px solid #ffffff !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+.content {
+  min-height: 90vh;
+}
+.footer {
+  background-color: aliceblue;
+  padding: 5px;
+  /* margin-top: 50px; */
+}
+
+/* this is just for ui purpose , no functionality is related */
+.car {
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 200px;
+  transition: 0.3s;
+  background-color: transparent;
+  border: olive;
+}
+.car:hover {
+  height: 300px;
+}
+.car:hover > .car-content {
+  opacity: 1;
+  transform: translateY(-40px);
+}
+.carimg {
+  height: 180px;
+  width: auto;
+  border-radius: 5px;
+  margin-top: 50px;
+  transform: translateY(-50px);
+}
+.car-content {
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.3s;
+}
+.login {
+  background-color: white;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  background-image: url("https://images.unsplash.com/photo-1495483727786-5859395ce43a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1929&q=80");
+}
+.login label,
+.login h1 {
+  color: white !important;
+  opacity: 0.6;
+}
+.login-form {
+  background-color: #1f1f1f;
+}
+.login-form input {
+  background-color: #333333 !important;
+  border: none !important;
+  color: white;
+  opacity: 0.5;
+}
+.login-logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60%;
+  bottom: 50%;
+  transform: translateY(-50%, -50%);
+  font-size: 45px;
+  opacity: 0.2 !important;
+}
+.login a {
+  color: white !important;
+  opacity: 0.5;
+}
+
+.carimg2 {
+  height: 300px;
+  border-radius: 10px;
+  width: auto;
+}
+
+svg {
+  height: 20px !important;
+  width: 20px !important;
+}
+/* a {
+  color: black !important;
+} */
+
+.menu__item {
+  color: #fff;
+}
